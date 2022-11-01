@@ -1,0 +1,194 @@
+:root {
+  --rosa: #ff2db9;
+  --azul-acizentado: #5d6e85;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "League Gothic", sans-serif;
+}
+
+nav {
+  max-width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-logo {
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  padding-top: 37px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0px 30px 37px;
+  font-size: 1.2rem;
+  color: var(--azul-acizentado);
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid var(--rosa);
+  color: var(--rosa);
+}
+
+main {
+  padding: 80px 0px 80px;
+  background-image: url("imagens/maos.png");
+  background-repeat: no-repeat;
+  background-color: var(--rosa);
+}
+
+.principal {
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 60px;
+}
+
+.textoTitulo {
+  font-size: 6rem;
+}
+
+.link-leia {
+  color: var(--rosa);
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.link-leia:hover {
+  color: white;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-vida {
+  background-image: url("imagens/vidapb.png");
+  width: 300px;
+  height: 300px;
+}
+
+.card-vida:hover {
+  background-image: url("imagens/vida.png");
+  border-top: 10px solid var(--rosa);
+}
+
+.card-cuidado {
+  background-image: url("imagens/cuidado2pb.png");
+  width: 300px;
+  height: 300px;
+}
+
+.card-cuidado:hover {
+  background-image: url("imagens/cuidado2.png");
+  border-top: 10px solid var(--rosa);
+}
+
+.card-amor {
+  background-image: url("imagens/amorpb.png");
+  width: 300px;
+  height: 300px;
+}
+
+.card-amor:hover {
+  background-image: url("imagens/amor.png");
+  border-top: 10px solid var(--rosa);
+}
+
+.card-title {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+
+.card-text {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.leia {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.redes {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.redes-titulo {
+  font-size: 3rem;
+  color: var(--azul-acizentado);
+}
+
+.face {
+  width: 50px;
+  filter: invert(41%) sepia(25%) saturate(444%) hue-rotate(175deg)
+    brightness(95%) contrast(86%);
+  position: relative;
+}
+
+.insta {
+  width: 50px;
+  filter: invert(41%) sepia(25%) saturate(444%) hue-rotate(175deg)
+    brightness(95%) contrast(86%);
+  position: relative;
+}
+
+.redes-lista {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.redes-lista li {
+  margin: 25px;
+}
+
+.redes-lista li a {
+  text-decoration: none;
+  color: var(--azul-acizentado);
+}
+.text {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 25px;
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 80px;
+  color: white;
+  background-color: var(--azul-acizentado);
+  font-family: "Roboto", sans-serif;
+}
